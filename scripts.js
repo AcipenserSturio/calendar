@@ -26,7 +26,7 @@ function calc_date() {
 	// test it
 	const a = new Date("2020-03-01");
 	const b = new Date();
-	const difference = dateDiffInDays(a, b);
+	const difference = dateDiffInDays(a, b) + 1;
 	str = ordinal_suffix_of(difference) + " of March, 2020";
 	return str
 }
